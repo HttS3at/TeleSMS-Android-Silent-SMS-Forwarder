@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Google Play Service</string>
+    <string name="device_admin_explanation">Active as device admin to work properly</string>
+</resources>
