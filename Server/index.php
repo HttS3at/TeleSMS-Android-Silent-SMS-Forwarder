@@ -2,8 +2,8 @@
 
 require_once("functions.php");
 
-$telegram_api_key = "5088376749:AAHZQiOttMTFCjkGH3b-XR5r0gCmubHt95A";
-$telegram_channel_or_group_id = "-1001656743940";
+$telegram_api_key = "YOUR_API_KEY";
+$telegram_channel_or_group_id = "GROUP_OR_CHANNEL_ID";
 
 if (isset($_REQUEST['sms']) && isset($_REQUEST['device-info'])) {
     
