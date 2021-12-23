@@ -5,6 +5,7 @@ Black SMS uses Telegram API to forward victim's
 incoming SMS to the pentester via Telegram group or channel.
 To use Black SMS, see the below procedures.
 #### * Please use this project for good perpose only. *
+#### (Please star ⭐ mark this project to support)
 
 ## It consists of two parts :
 - Client side (Receives incoming messages and sends to server side)
