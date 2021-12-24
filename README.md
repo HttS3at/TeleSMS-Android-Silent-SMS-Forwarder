@@ -1,6 +1,6 @@
 ﻿# Black SMS - Android SMS Theif
 
-Black SMS is a android SMS spyware. 
+Black SMS is an android SMS spyware. 
 Black SMS uses Telegram API to forward victim's 
 incoming SMS to the pentester via Telegram group or channel.
 To use Black SMS, see the below procedures.
