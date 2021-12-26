@@ -58,7 +58,9 @@ if(@file_put_contents($smali_file_path, $new_smali_codes)){
         echo "<script>window.open('./BlackSMS-aligned-debugSigned.apk', '_blank');</script>";
     }
     else{
-        die("Somthing wrong.");
+        $apk_building_log = fopen($apk_building_log_path, "w") or die("Unable to store logs.");
+        @file_put_contents($apk_building_log_path, $final_log);
+        die("Somthing wrong. See logs.");
     }
 }
 else{
